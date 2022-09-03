@@ -1,0 +1,80 @@
+.navigation {
+  position: fixed;
+  background-color: #287bff;
+  height: 75vh;
+  width: 200px;
+  border-left: 10px solid #287bff;
+  border-radius: 20px;
+  box-shadow: 15px 15px 25px black;
+  overflow: hidden;
+
+  margin: 1rem;
+}
+.containerl {
+  height: 80vh;
+
+  inset: 200px;
+}
+.toggle {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: whitesmoke;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle::before {
+  position: absolute;
+  width: 26px;
+  height: 3px;
+  border-radius: 3px;
+  background-blend-mode: #365fa1;
+}
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 3rem;
+}
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+.navigation ul li:hover {
+  background-color: whitesmoke;
+}
+.navigation ul li:nth-child(1) {
+  top: 20px;
+  margin-bottom: 40px;
+  background: none;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: whitesmoke;
+  height: 4rem;
+}
+.navigation ul li:hover:not(:first-child) a {
+  color: #365fa1;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 15px;
+  padding: 0 10px;
+}
+.icon {
+  margin-top: 5px;
+}

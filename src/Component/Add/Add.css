@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(198, 198, 252);
+  font-size: 14px;
+}
+.containery {
+  width: 80% !important;
+  margin: auto;
+  margin-top: 3rem;
+}
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+.containery p {
+  margin-bottom: 40px;
+}
+.input-ror {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+  margin-bottom: 1.5rem;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+}
+
+.button {
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  float: right;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+tr td {
+  padding-top: 20px;
+}
+.container label {
+  margin-top: 1rem;
+}
+.add {
+  display: flex;
+  align-items: center;
+}
+.containery h3 {
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.containery h1 {
+  font-weight: bold;
+  color: cornflowerblue;
+  text-shadow: 0 0 2px black;
+}
+.add_more {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.select {
+  width: 5rem;
+  height: 2rem;
+  background: orange;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+}
